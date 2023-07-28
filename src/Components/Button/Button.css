@@ -19,7 +19,7 @@
     --color: hsl(219 30% 98%);
 }
 
-/* body {
+body {
     display: grid;
     place-items: center;
     min-height: 100vh;
@@ -27,7 +27,7 @@
     background: var(--bg);
     transition: background var(--speed) var(--easing);
     font-family: sans-serif, system-ui;
-} */
+}
 
 .toggle__backdrop:first-of-type .clouds path:first-of-type {
     fill: var(--ray);
