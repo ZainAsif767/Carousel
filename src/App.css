@@ -5,12 +5,48 @@
     border: none;
     outline: none;
     text-decoration: none;
-    list-style: none;
+    list-style: square;
     font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-    cursor: pointer;
 }
 
 body {
     background-color: #eaeaea;
     overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #242424; */
+}
+
+.App {
+    position: relative;
+    /* Set the parent container to relative so the button can be positioned relative to it */
+}
+
+
+.button-container {
+    position: fixed;
+    top: 20px;
+    /* Adjust the value to change the vertical position */
+    left: 20px;
+    /* Adjust the value to change the horizontal position */
+    z-index: 999;
+    /* Ensure the button appears above other content on the page */
+}
+
+.container {
+    margin-top: 0px;
+    /* Add some top margin to create space between the button and the content */
+}
+
+/* Optional styles for the button */
+.button-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
