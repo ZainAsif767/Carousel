@@ -14,13 +14,13 @@ export default function App() {
   }
   return (
     <div className="App">
-      {/* <div className="button-container">
+      <div className="button-container">
         <button onClick={handleClick}>Toggle</button>
       </div>
       <div className="container">
         {showComponent ? <Card /> : <Carousel />}
-      </div> */}
-      <Button />
+      </div>
+      {/* <Button /> */}
     </div>
   );
 }
